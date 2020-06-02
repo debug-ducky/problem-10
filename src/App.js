@@ -15,16 +15,14 @@ function App(props) {
 }
 
 const mapStateToProps = (state) => {
-  return {
-    counter: state.counter
-  }
+  // what?????
 }
 
 const mapDispatchToProps = (dispatch) => {
   return bindActionCreators({
-    increment: incrementCounterAction,
-    decrement: decerementCounterAction
+
+    // what????
   }, dispatch)
 }
 
-export default  connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

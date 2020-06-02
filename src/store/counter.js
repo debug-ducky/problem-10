@@ -5,32 +5,25 @@ const COUNTER_DECREMENT = 'COUNTER_DECREMENT';
 
 
 const reducer = (state = initialState, action) => {
-  const {type} = action;
-
-  if(type === COUNTER_INCREMENT) {
-    state = state + 1;   
-  }
-
-  if(type === COUNTER_DECREMENT) {
-    state = state - 1;
-  }
-
-  return state;
+  // reducer logic goes here
 
 }
+
 export default reducer;
 
 
 export const incrementCounterAction = () => {
+  // put the types
   return {
-    type: COUNTER_INCREMENT,
+    type: ,
     payload: {}
   }
 }
 
 export const decerementCounterAction = () => {
+  // put the types
   return {
-    type: COUNTER_DECREMENT,
+    type: ,
     payload: {}
   }
 }
